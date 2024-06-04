@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+    sans: ['Roboto', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', "Segoe UI", "Arial", "sans-serif"],
+  },
     colors: {
       'marsh-green': '#7A9D8C','black': '#000000', 'pink':'#f5e9f3', 'dark-pink':'#b0adc3'
     },
