@@ -2,9 +2,6 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    margin: {
-      '20%': '10%','0':'0px'
-    },
     colors: {
       'marsh-green': '#7A9D8C','black': '#000000', 'pink':'#f5e9f3', 'dark-pink':'#b0adc3'
     },
@@ -15,6 +12,9 @@ module.exports = {
       // => @media (min-width: 1024px) { ... }
     },
     extend: {
+    margin: {
+      '20%': '10%','0':'0px'
+    },
       flex: {
         '1 2': '1 2 0%','2 1': '2 1 0%'
       }
